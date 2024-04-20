@@ -1,0 +1,53 @@
+.subtotal {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .subtotal p {
+    margin-bottom: 3px;
+    font-weight: 500px;
+    color: #111;
+    font-size: 17px;
+    
+
+  }
+  
+  
+  
+  .subtotal button {
+    background-color: #f7b203;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    height: 30px;
+    width: 240px;
+  }
+  
+  .subtotal button:hover {
+    background-color: #bb9c36;
+  }
+  
+  .subtotal button:focus {
+    outline: none;
+  }
+  
+
+.subtotal-title{
+    font-weight: 500;
+}
+
+
+.checkout-button {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}

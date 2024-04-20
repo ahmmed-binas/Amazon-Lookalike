@@ -1,0 +1,135 @@
+.middle-product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 400px;
+  margin-top: 0px;
+  padding: 20px;
+  margin-bottom: 220px;
+  width: max-content;
+  z-index: 1;
+}
+
+.middle-product-rating {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-product-img {
+  height: 300px;
+  width: max-content; 
+  object-fit: cover;
+  margin-left: -50px;
+}
+
+.middle-product-price {
+  margin-top: 15px;
+  margin-left: 45%;
+}
+
+.middle-product-info {
+  height: 60px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.middle-product-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: goldenrod; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  padding: 10px 10px; 
+  margin-top: auto;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  width: 60%;
+  text-align: center;
+  margin-left: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-product-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 300%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s;
+  border-radius: 50%;
+  transform: translateX(-50%) scale(0);
+}
+
+.middle-product-button:hover::before,
+.middle-product-button:focus::before {
+  transform: translateX(-50%) scale(2);
+}
+
+.middle-product-button:hover {
+  background-color: #f0c14b;
+  border-color: #a88734;
+  color: #111;
+}
+
+.middle-product-button:active {
+  background-color: #ffdb58;
+  border-color: #ffdb58;
+  color: #111;
+}
+
+.middle-product-button:focus {
+  outline: none;
+}
+
+.middle-product-button span {
+  position: relative;
+  z-index: 1;
+}
+
+.middle-product-title {
+  text-align: center;
+  color: rgb(75, 75, 101);
+}
+
+.middle-product-img-container {
+  height: 300px;
+  margin-bottom: 10px;
+  margin-top: -150px;
+  margin-left: 190px;
+  
+}
+
+.middle-product-title:hover {
+  color: rgb(255, 98, 0); 
+  cursor: pointer; 
+}
+.middle-product-title1 {
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size:20px;
+  font-weight: bold;
+  color: #FF9900; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% { color: #FF9900; } 
+  25% { color: #FFD700; }
+  50% { color: #FF9900; }
+  75% { color: #FFD700; } 
+  100% { color: #FF9900; } 
+}

@@ -1,0 +1,103 @@
+.video-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-top: 5%;
+}
+
+.video-container video {
+    width: 50%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.video-component-right {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 0 8px 8px 0;
+}
+
+.video-component-info {
+    margin-left: 10px;
+    margin-top: -150px;
+    font-family: cursive;
+    color: #333;
+    font-size: 28px;
+}
+
+.video-component-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.element-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.element-brand,
+.Model,
+.Year,
+.element-limited {
+    margin: 5px 0;
+    color: #777;
+}
+
+.video-component-price {
+    font-size: 3rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.video-component-button {
+    padding: 10px 20px;
+    background-color: #f0c14b;
+    color: #111;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.video-component-button:hover {
+    background-color: #ffdb58;
+    border-color: #ffdb58;
+    color: #111;
+}
+
+.video-component-button:active {
+    background-color: #e6ac00;
+    border-color: #e6ac00;
+    color: #111;
+}
+
+.element-limited {
+    margin: 5px 0;
+    color: #FF5733;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.video-component-price {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.video-component-price:hover {
+    color: #28a745;
+}

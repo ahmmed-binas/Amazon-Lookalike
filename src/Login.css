@@ -1,0 +1,248 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .Login img {
+    max-width: 100px; 
+   margin-bottom: -20%;
+    margin-top: 15%;
+  }
+  
+ 
+  
+  .Login-container {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(233, 231, 231);
+    padding: 20px;
+    width: 350px; 
+    margin-top: 30px;
+    text-align: left;
+    border-radius: 10px;
+   
+  }
+
+  .Login-signin {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: auto; 
+  
+  }
+  
+  .Login-form {
+    margin-left: -30%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+  
+.Login-button {
+    text-align: center; 
+    margin: 20px auto; 
+    padding: 15px 30px; 
+    background-color: #ffd900; 
+    border: 1px solid #fdd806;
+    color: #111;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: 300px;
+    height: 30px; 
+    line-height: 0px; 
+}
+
+
+
+  
+  .Login-button:hover {
+    background-color: #ceaa1b; /* Darker yellow on hover */
+  }
+  
+
+
+.Login-agreement {
+  color: rgb(97, 97, 245); 
+  cursor: pointer; 
+  font-weight: 500;
+}
+
+.Login-agreement:hover {
+  text-decoration: underline; 
+}
+
+
+
+.Login-email,.Login-password{
+  font-weight:bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #222121;
+  
+}
+
+.Login-passwordinput, .Login-emailinput {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    width: 140%;
+    height: 30px;
+    transition: border-color 0.3s; /* Add transition for smoother effect */
+}
+
+
+.Login-passwordinput:focus, .Login-emailinput:focus {
+    outline: none; 
+    border-color: rgb(31, 156, 197);
+    animation: glow 0.8s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgb(0, 148, 197); 
+    }
+    100% {
+        box-shadow: 0 0 20px rgb(0, 148, 197); 
+    }
+}
+
+
+
+.Login-policy{
+    font-size: 12px;
+}
+
+
+
+.help-section {
+    display: inline-block;
+    position: relative;
+}
+
+.help-section span {
+
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent; 
+   border-left: 10px solid rgb(104, 103, 103); /* Adjust size of the arrow and color */
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  right: 180px; 
+}
+
+
+.Needhelp{
+  color: rgb(97, 97, 245); 
+  cursor: pointer; 
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  margin-left: -180%;
+
+
+}
+
+
+
+.Needhelp:hover{
+  text-decoration: underline;
+}
+
+
+.help-section{
+  margin-top: 20px;
+}
+
+
+.line {
+  height: 1.5px; 
+  background-color: rgb(233, 231, 231);
+  width: 90%; 
+  margin: 20px auto; 
+}
+
+
+.second-line {
+  text-align: center;
+  color: #000000; 
+  font-size: 12px; 
+  margin-left: -210px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: -10px;
+  
+  
+  
+}
+
+.second-line .link {
+  color: rgb(97, 97, 245); 
+  margin-left: 1.3cm;
+  font-weight: bold;
+  padding-top: 100px;
+  
+}
+
+.second-line .link:hover{
+  text-decoration: underline; 
+}
+
+
+.new-to-amazon {
+  text-align: center;
+  color: #7c7777;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.line2 {
+  height: 1px;
+  width: 90%; 
+  background-color: #ccc;
+  margin-top: 1px;
+  margin-left: -100px;
+}
+
+.line3 {
+  height: 1px;
+  width: 90%; 
+  background-color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-left: 110px;
+  margin-top: -7.5px;
+}
+
+
+.Login-createacc{
+  height: 100px;
+  margin-top: -1%;
+}
+
+
+
+.Login-createacc {
+  background-color: #fff;
+  color: #000;
+  height: 10%;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 1%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Login-createacc:hover {
+  background-color: #f0f0f0;
+  color: #333; 
+}
