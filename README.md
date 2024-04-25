@@ -1,8 +1,17 @@
 # Getting Started with Create React App
 
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+=======
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts![ama](https://github.com/ahmmed-binas/amazon-shopping-site-look-alike/assets/110778968/d9e03bb2-1741-42a2-90c1-9cda1b37617a)
+
+
+>>>>>>> 91d775d74f9dc9beefa950d8ff849bb2f7a348d0
 
 In the project directory, you can run:
 
@@ -49,6 +58,14 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+<<<<<<< HEAD
+=======
+![ama3](https://github.com/ahmmed-binas/amazon-shopping-site-look-alike/assets/110778968/86fe3bf8-3a94-4803-8de9-61573e35e710)
+![amaz](https://github.com/ahmmed-binas/amazon-shopping-site-look-alike/assets/110778968/2572a6b4-0c74-4518-acf2-0df1065ffe70)
+
+
+
+>>>>>>> 91d775d74f9dc9beefa950d8ff849bb2f7a348d0
 ### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
@@ -61,10 +78,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+<<<<<<< HEAD
+=======
+![amaz2](https://github.com/ahmmed-binas/amazon-shopping-site-look-alike/assets/110778968/20b0634e-742f-427b-85f1-c958eda610e2)
+
+
+![lastpicama](https://github.com/ahmmed-binas/amazon-shopping-site-look-alike/assets/110778968/80962f5c-34bd-4fa1-9581-45a9803bd6de)
+
+>>>>>>> 91d775d74f9dc9beefa950d8ff849bb2f7a348d0
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+<<<<<<< HEAD
+=======
+![vedcoopn](https://github.com/ahmmed-binas/amazon-shopping-site-look-alike/assets/110778968/1f7add21-2b6a-4d67-beb6-a07fa16427f9)
+
+
+
+>>>>>>> 91d775d74f9dc9beefa950d8ff849bb2f7a348d0
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
