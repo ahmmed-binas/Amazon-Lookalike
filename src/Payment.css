@@ -1,0 +1,89 @@
+.payment {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-container {
+    margin-top: 60px;
+  }
+  
+  .payment-title1 {
+    margin-left: 500px;
+  }
+  
+  .payment-section-address {
+    margin-bottom: 20px;
+  }
+  
+  .payment-title {
+    margin-bottom: 15px;
+  }
+  
+  .payment-address label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .payment-address input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  .payment-submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-submit-input:hover {
+    background-color: #0056b3;
+  }
+  
+  .payment-section-payment {
+    margin-top: 20px;
+  }
+  
+  .payment-details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+
+  .StripeElement {
+    width: 100%;
+    color: #495057; 
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  ::placeholder {
+    color: #6c757d; 
+  }
+  
+
+  .StripeElement--invalid {
+    border-color: #dc3545;
+  }
+
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important; 
+  }
+  
+
+  .payment-price{
+    margin-top: 10px;
+    margin-left: 10px;
+  }

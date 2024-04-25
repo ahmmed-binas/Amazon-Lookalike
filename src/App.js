@@ -5,9 +5,14 @@ import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
 import Login from './Login';
-import { auth, onAuthStateChanged } from './firebase';
+import { auth } from './firebase'; 
 import { useStateValue } from './Stateprovider';
 import Payment from './Payment';
+import Order from './order';
+import { loadStripe } from '@stripe/stripe-js';
+import { Elements } from '@stripe/react-stripe-js';
+
+export const stripePromise = loadStripe('pk_test_51OgbKmKYBpYnIFJVArvsqU1gjTAbXqJBVY7rWAOKnd1s17RpBFn8yCxNxyssvLEj6Z7q24HaMGNPQZgHkvwRlxYT00r3DzN9pO');
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -29,19 +34,20 @@ function App() {
       }
     });
 
-    // Clean up the subscription when the component unmounts
+
     return () => unsubscribe();
   }, [dispatch]);
+
   return (
     <Router>
       <div className="App">
-      
         <div className="content-wrapper">
-           <Routes>
-           <Route path="/checkout" element={<><Header /><Checkout /></>} />
+          <Routes>
+            <Route path="/checkout" element={<><Header /><Checkout /></>} />
             <Route path="/" element={<><Header /><Home /></>} />
             <Route path="/login" element={<Login />} />
-            <Route path='/payment' element={<Payment/>}/>
+            <Route path="/Order" element={<Order/>} />
+            <Route path='/payment' element={<><Header /><Elements stripe={stripePromise}><Payment /></Elements></>} />
           </Routes>
         </div>
       </div>

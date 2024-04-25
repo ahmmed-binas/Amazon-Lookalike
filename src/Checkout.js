@@ -5,7 +5,7 @@ import Basketproducts from './Basketproducts';
 import { useStateValue } from './Stateprovider';
 import ProductGuidesSection from './ProductGuidesSection';
 
-function Checkout() {
+function Checkout() { 
   const [{ basket, user }] = useStateValue();
   const totalPrice = basket.reduce((total, item) => total + Number(item.price), 0);
   const userName = user ? user.email.split('@')[0] : '';
